@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    background-image: url(/image/clip-path/bg.png);
+    clip-path: polygon(0 0, 100% 0, 100% 74%, 51% 92%, 0 75%);
+    height: 100vh;
+
+}
+
+.transparent {
+    background-color: black;
+    opacity: 0.7;
+    height: 100vh;
+
+}
+
+.nav {
+    display: flex;
+    padding-top: 50px;
+
+}
+
+a:hover {
+    color: red;
+    
+}
+
+.logo {
+    padding-left: 300px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 300px;
+    list-style: none;
+    gap: 60px;
+    /* padding-left: ; */
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+
+}
+
+h2 {
+    color: white;
+    padding-top: 100px;
+    padding-left: 700px;
+}
+
+.line1 {
+    width: 5vw;
+    border: 1px solid rgb(206, 120, 120);
+    position: relative;
+    top: 30px;
+    left: 800px;
+}
+
+.point {
+    height: 6px;
+    width: 6px;
+    border-radius: 50px;
+    position: relative;
+    top: 26px;
+    left: 930px;
+    background-color: rgb(218, 115, 115);
+}
+
+.line2 {
+
+    width: 5vw;
+    border: 1px solid rgb(190, 111, 111);
+    position: relative;
+    top: 21px;
+    left: 980px;
+}
+
+h1 {
+    color: white;
+    padding-left: 600px;
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+#paragraph {
+    color: white;
+    padding-left: 650px;
+    padding-top: 50px;
+
+}
+
+#getstarted {
+    background-color: red;
+    color: white;
+    height: 40px;
+    border: red;
+    width: 150px;
+    margin-left: 680px;
+    margin-top: 50px;
+}
+
+#learnmore {
+    color: white;
+     border: 2px solid white;
+    /* background-color: red; */
+    margin-left: 900px;
+    position: relative;
+    bottom: 40px;
+    padding-left: 25px;
+    padding-top: 10px;
+    height: 40px;
+    width: 150px;
+}
+.rightchevron{
+  position: relative;
+  left: 1650px;
+  bottom: 280px;
+}
+.leftchevron{
+    position: relative;
+    bottom: 300px;
+  left: 50px;
+}
+
+.anchor {
+    height: 40px;
+    width: 40px;
+    border: 2px solid wheat;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 5px;
+    left: 865px;
+    background-color: white;
+    bottom: 90px;
+    border-radius: 50%;
+}
+
+h3 {
+    color: red;
+}
+
+.part2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.glass {
+    height: 50px;
+    width: 50px;
+    transform: rotate(45deg);
+    border: 2px solid red;
+    padding-left: 10px;
+    padding-top: 15px;
+    position: relative;
+    left: 140px;
+    bottom: 70px;
+}
+
+#glasses {
+    transform: rotate(45deg);
+}
+
+.heart {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-top: 15px;
+    position: relative;
+    left: 140px;
+    bottom: 70px;
+}
+
+.bulb {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    padding-left: 15px;
+    padding-top: 15px;
+    position: relative;
+    left: 140px;
+    bottom: 70px;
+}
+
+.message {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    padding-left: 12px;
+    padding-top: 15px;
+    position: relative;
+    left: 140px;
+    bottom: 70px;
+}
+p{
+    margin-top: 20px;
+}
+
+.line3 {
+
+    width: 3vw;
+    border: 1px solid rgb(190, 111, 111);
+    position: relative;
+    left: 20px;
+    margin-top: 20px;
+}
+
+.line4 {
+
+    width: 3vw;
+    border: 1px solid rgb(190, 111, 111);
+    position: relative;
+    left: 20px;
+    margin-top: 20px;
+}
+
+.line5 {
+
+    width: 3vw;
+    border: 1px solid rgb(190, 111, 111);
+    position: relative;
+    left: 20px;
+    margin-top: 20px;
+}
+
+.line6 {
+
+    width: 3vw;
+    border: 1px solid rgb(190, 111, 111);
+    position: relative;
+    left: 20px;
+    margin-top: 20px;
+}
